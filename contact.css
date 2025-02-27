@@ -1,0 +1,93 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+img{
+    width: 107px; ;
+}
+header{
+    background-color: #a04000;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navv{
+    background-color: #333;
+    padding: #333;
+    text-align: center;
+}
+.hero{
+    color: black;
+    padding: none;
+    background-color:#f4f4f4 ;
+}
+nav a{
+  
+    
+    margin: 0 15px;
+    font-size: 25px;
+    color: #fff;
+}
+.logo{
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 200px;
+}
+.basic{
+    list-style: none;
+    display: flex;
+    padding-left: 0 ;
+    justify-content: space-around;
+    margin-left: 245px;
+    font-size: 25px;
+    
+}
+.contact-container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    text-align:center;
+}
+h1{
+    color: #a04000;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, textarea{
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    margin-top: 15px;
+    padding: 10px;
+    background: #a04000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background: #a04000;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 50px;
+}

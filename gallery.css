@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,  sans-serif;
+}
+body{
+    background-color: #f9f9f9;
+    color: black;
+}
+
+header{
+    background-color: #a04000;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brian{
+  
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 200px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+    margin-left: 230px;
+    font-size: 25px;
+    
+    
+}
+nav ul li a {
+    color: #fff;
+    
+    padding: 10px 20px;
+
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+}
+

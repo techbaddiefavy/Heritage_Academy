@@ -1,0 +1,46 @@
+<!---BellaAdemola-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us| Heritage School</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!--Header sec-->
+    <header>
+        <img src="logo.jpg"  height="80px" width="100px">
+        <div class="logo" style="font-family: algeria;">-Heritage Foundation School</div>
+    <nav class="basic">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about us.html">About </a></li>
+        <li><a href="staff.html">Staffs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </nav>
+</header>
+
+<!--Section-->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+    <!--Footer-->
+    <footer class="hero">
+    <p>Copyright &copy; | 2025 Heritage Foundation Schools. All rights reserved</p>
+</footer>
+</body>
+</html>
